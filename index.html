@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'>
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js'>
+<title>Information Visualisation</title>
+</head>
+<body>
+    <div class="p-5 text-center">
+    <h1>18CSE301J-Information Viusalization</h1>
+    <h1>Mritunjay Jha</h1>
+    <h1>RA2011003011069</h1>
+    <hr>
+    </div>
+    <div class="p-5 text-center">
+        <h1 style="margin-bottom:50px">Assignment 1</h1>
+        <embed src="Assignment/Assign.pdf#toolbar=0" width="800" height="1000">
+    </div>
+    <hr>
+    <h1 class="p-5 text-center">Assignment 2</h1>
+    <div class='tableauPlaceholder' id='viz1678466612476' style='position: relative'><noscript><a href='https:&#47;&#47;www.umangbhardwaj.com&#47;how-to-create-a-stunning-tableau-dashboard-in-5-easy-steps&#47;'><img alt='Flights from Luxembourg ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fl&#47;FlightsfromLuxembourg&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FlightsfromLuxembourg&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fl&#47;FlightsfromLuxembourg&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>
+
+    <hr>
+    <div class="p-5 text-center" id="graph">
+        <h1>Assignment 3 (using D3js)</h1>
+        <h2>GDP</h2>
+        <div class="visHolder"></div>
+    </div>
+</body>
+
+    <script src="script.js"></script>
+    <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1678466612476');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1527px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+    </script>
+
+ 
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</html>
